@@ -1,0 +1,38 @@
+{
+    "name": "leuchtfeuer/static-info-tables-lt",
+    "description": "Lithuanian (lt) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.Leuchtfeuer.com",
+    "authors": [
+        {
+            "name": "Max Rösch",
+            "role": "Developer",
+            "email": "typo3@elbebass.com",
+            "homepage": "https://www.Leuchtfeuer.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Leuchtfeuer/static-info-tables-lt/issues",
+        "source": "https://github.com/Leuchtfeuer/static-info-tables-lt",
+        "email": "dev@Leuchtfeuer.com"
+    },
+    "replace": {
+        "typo3-ter/static-info-tables-lt": "self.version"
+    },
+    "require": {
+        "typo3/cms-core": "^10.4 || ^11.5",
+        "typo3/cms-extbase": "^10.4 || ^11.5",
+        "sjbr/static-info-tables": "^6.7 || ^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leuchtfeuer\\StaticInfoTablesLt\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "static_info_tables_lt"
+        }
+    }
+}
